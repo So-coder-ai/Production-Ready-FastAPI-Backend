@@ -1,0 +1,7 @@
+Alembic migrations live in `alembic/versions/`.
+
+Example:
+- Generate migration (autogenerate):
+  - `alembic revision --autogenerate -m "init"`
+- Apply:
+  - `alembic upgrade head`
