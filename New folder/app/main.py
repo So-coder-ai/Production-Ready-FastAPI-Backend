@@ -65,3 +65,6 @@ async def integrity_exception_handler(request: Request, exc: IntegrityError):
     )
     return JSONResponse(status_code=409, content={"detail": "Integrity error"})
 
+@app.get("/")
+def root():
+    return {"message": "API is running 🚀", "docs": "/api/v1/docs"}
