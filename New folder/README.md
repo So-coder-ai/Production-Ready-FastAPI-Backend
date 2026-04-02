@@ -1,7 +1,5 @@
 # FastAPI backend (JWT + Postgres)
 
-This is a small, clean backend you can use as a starting point for a real project.
-
 ## What you get
 - FastAPI with a modular layout
 - JWT signup/login
